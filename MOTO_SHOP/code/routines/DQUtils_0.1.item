@@ -1,0 +1,73 @@
+package routines;
+
+
+import java.text.ParsePosition;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DQUtils {
+
+    /** Retourne null si la chaîne est nulle ou vide, sinon la valeur sans espaces autour. */
+	public static String clean(String s) {
+	    if (s == null) return null;
+	    String v = s.trim();
+	    return (v.isEmpty() || v.equalsIgnoreCase("null")) ? null : v;
+	}
+
+    /** "  hugo " -> "Hugo", "DUBOIS" -> "Dubois", "jean-pierre" -> "Jean-Pierre" */
+    public static String capitalize(String s) {
+        String v = clean(s);
+        if (v == null) return null;
+        StringBuilder sb = new StringBuilder();
+        boolean upper = true;
+        for (char c : v.toLowerCase().toCharArray()) {
+            sb.append(upper ? Character.toUpperCase(c) : c);
+            upper = (c == ' ' || c == '-' || c == '\'');
+        }
+        return sb.toString();
+    }
+
+    /** Vérifie le format d'un email déjà passé en minuscules. */
+    public static boolean isValidEmail(String s) {
+        return s != null
+            && s.matches("^[a-z0-9._%+-]+@[a-z0-9-]+(\\.[a-z0-9-]+)*\\.[a-z]{2,}$");
+    }
+
+    /** Accepte yyyy-MM-dd ou dd/MM/yyyy ; refuse les dates impossibles (mois 13...). */
+    public static Date parseDate(String s) {
+        String v = clean(s);
+        if (v == null) return null;
+        String[] patterns = {"yyyy-MM-dd", "dd/MM/yyyy"};
+        for (String p : patterns) {
+            SimpleDateFormat f = new SimpleDateFormat(p);
+            f.setLenient(false);
+            ParsePosition pos = new ParsePosition(0);
+            Date d = f.parse(v, pos);
+            if (d != null && pos.getIndex() == v.length()) return d;
+        }
+        return null;
+    }
+    
+    /** "189,99" -> 189.99 ; "abc" -> null. Arrondi à 2 décimales. */
+    public static java.math.BigDecimal parseAmount(String s) {
+        String v = clean(s);
+        if (v == null) return null;
+        v = v.replace("€", "").replace(" ", "").replace(",", ".");
+        try {
+            return new java.math.BigDecimal(v).setScale(2, java.math.RoundingMode.HALF_UP);
+        } catch (NumberFormatException e) {
+            return null;
+        }
+    }
+    
+    /** "2" -> 2 ; "-2" -> -2 ; "two", "1.5" ou "" -> null */
+    public static Integer parseInteger(String s) {
+        String v = clean(s);
+        if (v == null || !v.matches("^-?[0-9]+$")) return null;
+        try {
+            return Integer.valueOf(v);
+        } catch (NumberFormatException e) {
+            return null;
+        }
+    }
+}
