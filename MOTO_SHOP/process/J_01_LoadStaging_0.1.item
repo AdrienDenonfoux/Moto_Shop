@@ -1,49 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="batch_id" prompt="batch_id?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value=""/>
     <contextParameter comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="localhost"/>
     <contextParameter comment="" name="db_name" prompt="db_name?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="motorcyclestore"/>
-    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:tY9xtP6CS0oml3ITGZZPn/OP2zXWUsQgoU8Aa2s8lwoCnIGK"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:c9WIcpjIDhOmjZCJU4o7Ea96OaNN7GXBSrOqv0meAD4+CYZr"/>
     <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="stg"/>
     <contextParameter comment="" name="db_user" prompt="db_user?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="talend_etl"/>
     <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
   </context>
   <context confirmationNeeded="false" name="audit">
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
+    <contextParameter comment="" name="batch_id" prompt="batch_id?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value=""/>
     <contextParameter comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_name" prompt="db_name?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="motorcyclestore"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:CFpltpC+eeCn1hucd5wcFZx20/RQ5/89KXcEJoPSkRciY5Xd"/>
+    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="audit"/>
     <contextParameter comment="" name="db_user" prompt="db_user?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="talend_etl"/>
-    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:joqmMURgY4iycp5SRticRjqxYBDzmO5POiIsU+Bdtu/tbsK/"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
   </context>
   <context confirmationNeeded="false" name="ods">
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
+    <contextParameter comment="" name="batch_id" prompt="batch_id?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value=""/>
     <contextParameter comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_name" prompt="db_name?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="motorcyclestore"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:496YAUfj1435G9mGftgF1uC16723RNyaUzq1RFHHWMfdV+WL"/>
+    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="ods"/>
     <contextParameter comment="" name="db_user" prompt="db_user?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="talend_etl"/>
-    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:5NIpJQEFWn9xNg2DkL6IHE5531cfDxpMW6suoZcMVYdUTnrn"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
   </context>
   <context confirmationNeeded="false" name="ref">
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
+    <contextParameter comment="" name="batch_id" prompt="batch_id?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value=""/>
     <contextParameter comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_name" prompt="db_name?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="motorcyclestore"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:DvaECf8LCKa/wVT3tTElPXSqOXOqYnjaLg6HKqnk6TCQZNs4"/>
+    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="ref"/>
     <contextParameter comment="" name="db_user" prompt="db_user?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="talend_etl"/>
-    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:pVTFvGllJKScTnW2kQma37HPoE/60BkNQ+2ItcO6w20Py6MD"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
   </context>
   <context confirmationNeeded="false" name="stg">
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
+    <contextParameter comment="" name="batch_id" prompt="batch_id?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value=""/>
     <contextParameter comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_name" prompt="db_name?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="motorcyclestore"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:oaEGvgrijWaElzkv+qilRfsa6a46EDY5hF+i3RU5Av1fuJxx"/>
+    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="stg"/>
     <contextParameter comment="" name="db_user" prompt="db_user?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="talend_etl"/>
-    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:9nebSI+Lke72diE3K9cPl3vmCqOpgWeimkZ0WQItCJHY+9uG"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -86,7 +91,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:hgNU23qhOXUu5udfawL3bLrJzd8yJH7XLjEeEPtR" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:U4MFtJZHpa7uZITrz/jlyujBOLAxO058ibMVFh+f" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -121,7 +126,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:4XOvZd9ulBJd1AwvcR41zE2JiWSwyM8CCWLn3Ksj" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:A6OUNVUJBQOKSYUmeQgXYK8esWt4Z7Tc3Bb+0BYb" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -163,7 +168,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.db_name"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.db_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.db_user"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:OxhzjS2bIikA8/koa5cSXkl7rjJJHUkNg+cyKTfiIYUzYKzXVC+I3zcv1algnUA="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8x2OEcECwMYUxa5hEx8IcUx7dgEezRx7OSrLuGlmZw6rSV/P6UZ/9Wu2GonqF4c="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -178,7 +183,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="globalMap.put(&quot;batch_id&quot;,&#xA;    TalendDate.formatDate(&quot;yyyyMMddHHmmss&quot;, TalendDate.getCurrentDate()));&#xA;System.out.println(&quot;Batch : &quot; + globalMap.get(&quot;batch_id&quot;));"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String batch = (context.batch_id == null || context.batch_id.trim().isEmpty())&#xA;    ? TalendDate.formatDate(&quot;yyyyMMddHHmmss&quot;, TalendDate.getCurrentDate())&#xA;    : context.batch_id;&#xA;globalMap.put(&quot;batch_id&quot;, batch);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="LABEL" value="INIT_Batch"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -195,7 +200,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.db_schema"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.db_user"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:LX/ZQwOiJak4hLFXFoX2O1pkokhRk1esqcxR7t2ePbzZoES4Ef1A4p88fw3ZC+U="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:t5Tuz3AJOqzItkdhemtF1w2D4muYoFSP9Vw4i58XiKrOtGzp4svRBoK0WjUeFaU="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -240,7 +245,7 @@
     <elementParameter field="TEXT" name="LIMIT" value=""/>
     <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
     <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_tZcTINHsEfGcMPwDfoKHrQ - metedataCustomers" show="false"/>
     <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Dev/TOS_DI-20200219_1130-V7.3.1/workspace&quot;" show="false"/>
@@ -377,34 +382,34 @@
   </node>
   <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="context.db_host"/>
-    <elementParameter field="TEXT" name="PORT" value="context.db_port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.db_name"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.db_host" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.db_port" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.db_name" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.db_schema"/>
-    <elementParameter field="TEXT" name="USER" value="context.db_user"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1/nUj/PqCFzDJlpZyxNhFmwSImW3SqcE9DFBfEkYJx/uFITnqLEU0Rw9eQMjttc="/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;stg&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.db_user" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:plH0g1x32lB0qUTRRiMGpsqJpv18VluFuI5GodWem8Fkt/+V+z7Y9AQEWsBCAsE=" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;customers_raw&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false" show="false"/>
     <elementParameter field="CHECK" name="SPATIAL_INDEX" value="false" show="false"/>
     <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" value="false" show="false"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
-    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.input_dir"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.input_dir" show="false"/>
     <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
     <elementParameter field="TABLE" name="ADD_COLS"/>
     <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
@@ -549,7 +554,7 @@
     <elementParameter field="TEXT" name="LIMIT" value=""/>
     <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
     <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="__Yq40NHsEfGcMPwDfoKHrQ - metadataOrders" show="false"/>
     <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Dev/TOS_DI-20200219_1130-V7.3.1/workspace&quot;" show="false"/>
@@ -664,34 +669,34 @@
   </node>
   <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="384">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_2" show="false"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="context.db_host"/>
-    <elementParameter field="TEXT" name="PORT" value="context.db_port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.db_name"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.db_host" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.db_port" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.db_name" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.db_schema"/>
-    <elementParameter field="TEXT" name="USER" value="context.db_user"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:YriBImgTkQu1lSc4aDrxm9ySVvej5Tnt32vlZYr8OyYeke3uJILytkGwPw6v18E="/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;stg&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.db_user" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pgsxMIouX8jnbJO0cDJ6udwVVMfWPLLW3I8hi1BYa9Zg2QDJkIncO2kjr22MoVQ=" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;orders_raw&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false" show="false"/>
     <elementParameter field="CHECK" name="SPATIAL_INDEX" value="false" show="false"/>
     <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" value="false" show="false"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
-    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.input_dir"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.input_dir" show="false"/>
     <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
     <elementParameter field="TABLE" name="ADD_COLS"/>
     <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
@@ -806,7 +811,7 @@
     <elementParameter field="TEXT" name="LIMIT" value=""/>
     <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
     <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_kuEB8NHtEfGcMPwDfoKHrQ - metadataOrderLines" show="false"/>
     <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Dev/TOS_DI-20200219_1130-V7.3.1/workspace&quot;" show="false"/>
@@ -929,34 +934,34 @@
   </node>
   <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_3" show="false"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="context.db_host"/>
-    <elementParameter field="TEXT" name="PORT" value="context.db_port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.db_name"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.db_host" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.db_port" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.db_name" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.db_schema"/>
-    <elementParameter field="TEXT" name="USER" value="context.db_user"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:56UoZTwyyEcIhh5qCpGWVMJrrX93Vnb4ntCkOS2RksN6xxqOBe7PVbNgW8eKwtQ="/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.db_schema" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.db_user" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:U3t3hbGV9X7q49rFGYQAtNyvEtY4QV0CP5WV1eR7qHWu3RTpy9w/EJgokgpb6Mo=" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;order_lines_raw&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false" show="false"/>
     <elementParameter field="CHECK" name="SPATIAL_INDEX" value="false" show="false"/>
     <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" value="false" show="false"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
-    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.input_dir"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.input_dir" show="false"/>
     <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
     <elementParameter field="TABLE" name="ADD_COLS"/>
     <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
@@ -1120,7 +1125,7 @@
       <elementValue elementRef="QUERY" value="&quot;purchase_cost&quot;"/>
       <elementValue elementRef="NODECHECK" value=""/>
     </elementParameter>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_0-VS0NHqEfGcMPwDfoKHrQ - metadataProducts" show="false"/>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
@@ -1220,34 +1225,34 @@
   </node>
   <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_4" show="false"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="context.db_host"/>
-    <elementParameter field="TEXT" name="PORT" value="context.db_port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.db_name"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.db_host" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.db_port" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.db_name" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.db_schema"/>
-    <elementParameter field="TEXT" name="USER" value="context.db_user"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:PdYlgqj7n8YzOwflHxPz+NobNgdHOf+aCSULBX72dijPhC5yAbyKfC1EckcCGEI="/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.db_schema" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.db_user" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:G/YN3khHqXo1B+k+YWB5r6HnSHuFIgNJ6nIPhw9G1qIHm7IhAStgwrDOtEyd1Vk=" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;products_raw&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false" show="false"/>
     <elementParameter field="CHECK" name="SPATIAL_INDEX" value="false" show="false"/>
     <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" value="false" show="false"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
-    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.input_dir"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.input_dir" show="false"/>
     <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
     <elementParameter field="TABLE" name="ADD_COLS"/>
     <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">

@@ -351,6 +351,81 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_pth3kNOYEfGLguEjDNx-bQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_69PD8NIbEfGcMPwDfoKHrQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "MOTO_SHOP:_JOI3INKzEfGRfNA-sTcRnA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "MOTO_SHOP:_MnjxkNLVEfGLguEjDNx-bQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "MOTO_SHOP:_bKrxoNN2EfGLguEjDNx-bQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "MOTO_SHOP:_d2PtENODEfGLguEjDNx-bQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "MOTO_SHOP:_vmiNMNLmEfGLguEjDNx-bQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_-7tw0NLNEfGLguEjDNx-bQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_-7tw0NLNEfGLguEjDNx-bQ - job_runs",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_vmiNMNLmEfGLguEjDNx-bQ",
     "version" : "0.1",
     "type" : "job"

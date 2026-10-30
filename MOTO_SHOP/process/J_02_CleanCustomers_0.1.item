@@ -1,49 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="ods" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
+    <contextParameter comment="" name="batch_id" prompt="batch_id?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value=""/>
     <contextParameter comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_name" prompt="db_name?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="motorcyclestore"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:rE8z2Yl1E1lalTBu4l4SiHVU0gIcqVQjosw/lVM9sN3ESTOV"/>
+    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="stg"/>
     <contextParameter comment="" name="db_user" prompt="db_user?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="talend_etl"/>
-    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:YNZNiWKS0Rq1bvSrGQdoZb6GkYO216CO6HwFcx3wsQzxNlMS"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
   </context>
   <context confirmationNeeded="false" name="ref">
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
+    <contextParameter comment="" name="batch_id" prompt="batch_id?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value=""/>
     <contextParameter comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_name" prompt="db_name?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="motorcyclestore"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:tx1/99Eg3rmksH3pCIeR4r80+1xW3SP/CcIzQwfitgGZTXVA"/>
+    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="ref"/>
     <contextParameter comment="" name="db_user" prompt="db_user?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="talend_etl"/>
-    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:t1D9Ncfjoeefk/RDmvXRT+QpODh3TLKtGfCONNo1VkqNkfjb"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
   </context>
   <context confirmationNeeded="false" name="audit">
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
+    <contextParameter comment="" name="batch_id" prompt="batch_id?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value=""/>
     <contextParameter comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_name" prompt="db_name?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="motorcyclestore"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:WPz+kuduD17NOT8bj3Fk9VgkcoLcKmN/kZsqOhivwU/a1c0k"/>
+    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="audit"/>
     <contextParameter comment="" name="db_user" prompt="db_user?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="talend_etl"/>
-    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:7lGGWp0+wfc98n7qFy0c/pfwUxJX56DCzhSbMgcoHaIKpCTB"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
   </context>
   <context confirmationNeeded="false" name="stg">
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
+    <contextParameter comment="" name="batch_id" prompt="batch_id?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value=""/>
     <contextParameter comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_name" prompt="db_name?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="motorcyclestore"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:J6M5EL+4QNtEKUldDr9wfVJxjRZEkka786oIyVB4uEFWLuv8"/>
+    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="stg"/>
     <contextParameter comment="" name="db_user" prompt="db_user?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="talend_etl"/>
-    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:EfQbu2Zi0UIktUasEFzOJ01VLEFHjaCMed5lLrw76V67k78o"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
   </context>
   <context confirmationNeeded="false" name="ods">
-    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
+    <contextParameter comment="" name="batch_id" prompt="batch_id?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value=""/>
     <contextParameter comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_name" prompt="db_name?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="motorcyclestore"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:T1arAln0P6JgGvcx5gUa/xxWQ5oI6p2P82GAv7wAEwERAS4H"/>
+    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="ods"/>
     <contextParameter comment="" name="db_user" prompt="db_user?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="talend_etl"/>
-    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_Password" value="enc:system.encryption.key.v1:CmCIRsnR7ARWAQb2tZul0twl1oOuJOej6hvm97hyXPCCuIn6"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_69PD8NIbEfGcMPwDfoKHrQ" type="id_String" value="&quot;C:/Users/adrie/Documents/Dev/Talend/Moto shop dataset/&quot;"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -86,7 +91,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:pQhTqzjnLK1G0K6wJbn/o9RxMh2sXE3/FqVJR5mb" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:hR0+6IYv1um+gHRW/zMBFdeADHwdJNe5dhjaqvcD" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -121,7 +126,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:yJEB0BP/3tmag34ObrUR2kNzcUPaU+SaZc8TnDLK" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Z6oG1UTQCjjcz4xFAECDZUe6tXHqG+vajaUkX5hm" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -157,16 +162,14 @@
   </node>
   <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="-32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_-7tw0NLNEfGLguEjDNx-bQ" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
     <elementParameter field="TEXT" name="HOST" value="context.db_host"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="PORT" value="context.db_port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.db_name"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.db_schema"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;ods&quot;"/>
     <elementParameter field="TEXT" name="USER" value="context.db_user"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ueuk07M+kiEom6OQ4xwSv6sIp1i3xysPHIG+Uz0IGplYZ6q7g+XYf524toCACYs="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zCKfD8yiBpbrOl2oP0i7WWKiAObh1eqIW8Ot7rf2Y29XXkQpfMqIQtnr/69R3no="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -190,7 +193,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.db_schema" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.db_user" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0NFEq0POkblATSqvomtCVx4PdV9tZcICCvDtP1KmPTVEpjQRLJ/1Kk02PrRWElw=" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:M2hspyhth+Y8taaNd0NSg27sI3h1ubG/hhjjklOoysCIdl2x71qch53BEFDy84E=" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -227,7 +230,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.db_schema" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.db_user" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:keoPBtDjTqm0Qm73bU8CDbzgt2WNgSMmDBpQJ15gKCDTQDLXQLverMMP1dtVTuU=" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:PrOEOXZ57N5PDL+jUXZyxnyqh95np0ybqLGUb4nR1LHPeH3Un2Cf+qcRA8In6Tc=" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -264,7 +267,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.db_name" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.db_schema" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.db_user" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pkYkta9JWQ3PNS9kwpUXI5SnTrbPJCr8LrQLvWPJN8iz/oOW1hPIJJxxydCZ/+w=" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:7x4De4IbAmVy5ohWWgvSncM91drUF8Fkox+vvxEygeV3quz55XbT4OTDnS7kq38=" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_-7tw0NLNEfGLguEjDNx-bQ - customers_raw" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;customers_raw&quot;"/>
@@ -389,7 +392,7 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="v_id" expression="stg.customer_id == null ? &quot;&quot; : stg.customer_id.trim().toUpperCase()" type="id_String"/>
         <mapperTableEntries name="v_id_ok" expression="Var.v_id.matches(&quot;^CUST[0-9]{4}$&quot;)" type="id_Boolean"/>
@@ -450,7 +453,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.db_name" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;ref&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.db_user" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nAy4qA/8T8upCHkxIf/10urEUUlgTiWrg3fAmYC6vKg/JzjirqDUTMsb02LQ7h0=" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pjG7uIAf34kYdEPJ5aAqbqmqPKHmoHdAnFoqK5fiAQKcbCW/SKVgdYi5TRJ5y4k=" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;city_alias&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -688,7 +691,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.db_schema" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.db_user" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:my+WkdAochpkrIofnDeGpt1eFnO2Wl3AYA8+RJIew+2lxjZZOk515vaNO3o5VWA=" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:6SN5U8fb2MZMn2mfBxPH7Au0m7EWAvstqictmvTlBzlBCrifa1K/P/pziJfvmX0=" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;customers&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -903,7 +906,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;audit&quot;"/>
     <elementParameter field="TEXT" name="USER" value="context.db_user"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:VXU2Ed+e23vKihqzOiWTq2jB+iOML01eOwfik6C3nzuazGQ6q4zqo6TJFGEzYZc="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FZAPPgXrkcxcM1q+sHKjF9wsthKj5xOQ8JJV2gmtpPgI9YzB/Dx6QJ4IoULd2Gk="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;dq_issues&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1039,7 +1042,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;audit&quot;"/>
     <elementParameter field="TEXT" name="USER" value="context.db_user"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:KQpKAjo9eJ/TclZkLDsLvqpPs3lgERxRueNpO4PgBSQpI0fYAMGMjpTUWo1Suws="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:jEmWQX8tEgKmKea6VrL7tH/vDHnRTucPajMiwxU7NVDdSUvswuRTaMSFLAHoFBE="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;dq_issues&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1214,7 +1217,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;audit&quot;"/>
     <elementParameter field="TEXT" name="USER" value="context.db_user"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:d0dbGO7Ra/oQxgHRMWaHvnEJlKMVzY7W7/f/s3e++pR2BIlm5fpqcn9CIdFR4u4="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nLf/oh5yDg899kze9BjKrTve+a2B+Q+XRQ5GmWljrs6lVoEQ1ejx41yd00EAE7I="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;dq_issues&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
